@@ -1,3 +1,7 @@
+a{
+  color: #11999E;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -7,17 +11,22 @@ body {
 
 /*margin: top right bottom left*/
 h1 {
+  color: #66BFBF;
   font-size: 5.625rem; /*16px = 100% = 1em;  90px = 90px/16px=5.625em*/
+  line-height: 2;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
 h2{
+  color: #66BFBF;
   font-size: 2.5rem; /*40px/16px = 2.5*/
   font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
 
 h3{
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -38,6 +47,7 @@ p {
 }
 
 .webs {
+  color:#11999E;
   text-decoration: underline;
 }
 
