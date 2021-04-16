@@ -62,3 +62,10 @@ p {
   top: 3.125rem;
   right: 6.25rem;
 }
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
