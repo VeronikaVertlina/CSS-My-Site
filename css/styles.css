@@ -36,12 +36,13 @@ p {
 }
 
 .top-container {
-  background-color: #e0ebe8;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
 
 .middle-container {
+  color: #40514E;
 }
 
 .bottom-container {
