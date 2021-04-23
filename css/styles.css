@@ -5,6 +5,7 @@ a{
 body {
   margin: 0;
   text-align: center;
+  color: #40514E;
   font-family: 'Merriweather', serif;
   font-size: 20px;
 }
@@ -43,7 +44,7 @@ margin-bottom: 100px;
 p {
   margin-left: 0;
   margin-bottom: 50px;
-margin-top: 50px;
+  margin-top: 50px;
 }
 
 .top-container {
@@ -53,10 +54,12 @@ margin-top: 50px;
 }
 
 .middle-container {
-  color: #40514E;
+margin-top: 50px;
 }
 
 .bottom-container {
+  background-color: #66BFBF;
+  margin-top: 50px;
 }
 
 .webs {
