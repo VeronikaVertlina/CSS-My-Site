@@ -10,6 +10,46 @@ body {
   font-size: 20px;
 }
 
+.BUTTON_DUI {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF);
+   background-image: -moz-linear-gradient(top, #66BFBF);
+   background-image: -ms-linear-gradient(top, #66BFBF);
+   background-image: -o-linear-gradient(top, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #66BFBF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 60;
+   padding: 10px 20px 10px 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_DUI:hover {
+   border: solid #66BFBF 1px;
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF);
+   background-image: -moz-linear-gradient(top, #66BFBF);
+   background-image: -ms-linear-gradient(top, #66BFBF);
+   background-image: -o-linear-gradient(top, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #66BFBF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
 /*margin: top right bottom left*/
 h1 {
   color: #66BFBF;
@@ -54,12 +94,14 @@ p {
 }
 
 .middle-container {
-margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
 }
 
 .bottom-container {
   background-color: #66BFBF;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .webs {
@@ -73,10 +115,19 @@ margin-top: 50px;
   left: 6.25rem;
 }
 
+.footer-link {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
 .top-cloud {
   position: absolute;
   top: 3.125rem;
   right: 6.25rem;
+}
+
+.owner {
+  color: #EAF6F6;
 }
 
 .skill-row {
