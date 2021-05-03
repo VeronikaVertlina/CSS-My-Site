@@ -107,13 +107,13 @@ p {
 .top-cloud {
   position: absolute;
   top: 40px;
-  right: 300px;
+  right: 200px;
 }
 
 .bottom-cloud {
   position: absolute;
   bottom: 300px;
-  left: 250px;
+  left: 200px;
 }
 
 .footer-link {
