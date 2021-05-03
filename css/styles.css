@@ -1,5 +1,6 @@
 a{
   color: #11999E;
+  text-align: center;
 }
 
 body {
@@ -7,7 +8,7 @@ body {
   text-align: center;
   color: #40514E;
   font-family: 'Merriweather', serif;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 .BUTTON_DUI {
@@ -17,18 +18,18 @@ body {
    background-image: -ms-linear-gradient(top, #66BFBF);
    background-image: -o-linear-gradient(top, #66BFBF);
    background-image: -webkit-gradient(to bottom, #66BFBF);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
    color: #FFFFFF;
    font-family: 'Montserrat', sans-serif;
    font-size: 20px;
-   font-weight: 60;
-   padding: 10px 20px 10px 20px;
+   font-weight: 900;
+   padding: 3px 20px 3px 20px;
    -webkit-box-shadow: 1px 1px 20px 0 #000000;
    -moz-box-shadow: 1px 1px 20px 0 #000000;
-   box-shadow: 1px 1px 20px 0 #000000;
-   text-shadow: 1px 1px 20px #000000;
+   box-shadow: 1px 1px 1px 0 #11999E;
+   text-shadow: 1px 1px 0 #000000;
    border: solid #66BFBF 1px;
    text-decoration: none;
    display: inline-block;
@@ -37,16 +38,16 @@ body {
 }
 
 .BUTTON_DUI:hover {
-   border: solid #66BFBF 1px;
-   background: #66BFBF;
-   background-image: -webkit-linear-gradient(top, #66BFBF);
-   background-image: -moz-linear-gradient(top, #66BFBF);
-   background-image: -ms-linear-gradient(top, #66BFBF);
-   background-image: -o-linear-gradient(top, #66BFBF);
-   background-image: -webkit-gradient(to bottom, #66BFBF);
+   border: solid #11999E 1px;
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E);
+   background-image: -moz-linear-gradient(top, #11999E);
+   background-image: -ms-linear-gradient(top, #11999E);
+   background-image: -o-linear-gradient(top, #11999E);
+   background-image: -webkit-gradient(to bottom, #11999E);
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
-   border-radius: 20px;
+   border-radius: 8px;
    text-decoration: none;
 }
 
@@ -94,14 +95,16 @@ p {
 }
 
 .middle-container {
+  position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
-
 }
 
 .bottom-container {
+  position: relative;
   background-color: #66BFBF;
   padding-top: 50px;
+  text-align: center;
 }
 
 .webs {
@@ -112,7 +115,7 @@ p {
 .bottom-cloud {
   position: absolute;
   bottom: 18.75rem;
-  left: 6.25rem;
+  left: 23.875rem;
 }
 
 .footer-link {
@@ -123,11 +126,15 @@ p {
 .top-cloud {
   position: absolute;
   top: 3.125rem;
-  right: 6.25rem;
+  right: 23.875rem;
 }
 
 .owner {
   color: #EAF6F6;
+  vertical-align: bottom;
+  font-size: 15px;
+
+
 }
 
 .skill-row {
@@ -150,5 +157,29 @@ p {
 }
 
 .profil-img {
-  width: 13%;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.profile {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  line-height: 2;
+
+}
+
+.text-profile {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.contact-me {
+  margin: 100px auto 50px auto;
+  width: 50%;
+  line-height: 2;
+}
+
+.text-contact-me {
+  margin-left: 50px;
+  margin-right: 50px;
 }
